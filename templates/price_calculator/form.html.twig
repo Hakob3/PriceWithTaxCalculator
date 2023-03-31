@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 ml-md-auto">
+                <div class="card bg-light mb-3 mt-5" style="width: 800px">
+                    <div class="card-body">
+                        <div class="card-header mb-3">Рассчитать стоимость товаров с учётом налогов</div>
+                        {{ form_start(form) }}
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                {{ form_label(form.product) }}
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-danger">
+                                    {{ form_errors(form.product) }}
+                                </div>
+                                {{ form_widget(form.product) }}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                {{ form_label(form.taxNumber) }}
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-danger">
+                                    {{ form_errors(form.taxNumber) }}
+                                </div>
+                                {{ form_widget(form.taxNumber) }}
+                            </div>
+                        </div>
+                        <div class="form_group">
+                            <div class="col-md-12 mb-3">
+                                {{ form_row(form.submit) }}
+                            </div>
+                        </div>
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

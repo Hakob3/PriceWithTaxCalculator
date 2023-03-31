@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Наушники",
+    "price": 100,
+    "currency": "EUR"
+  },
+  {
+    "name": "Чехол для телефона",
+    "price": 20,
+    "currency": "EUR"
+  }
+]

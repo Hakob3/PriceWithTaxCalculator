@@ -1,0 +1,12 @@
+/.docker/log/
+/.idea
+/.docker/conf/postgres/db-data/
+/.docker/conf/postgres_data/
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/var/
+/vendor/
+###< symfony/framework-bundle ###

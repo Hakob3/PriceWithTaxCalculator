@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Германия",
+    "tax": 19,
+    "taxNumberPrefix": "DE"
+  },
+  {
+    "name": "Италия",
+    "tax": 22,
+    "taxNumberPrefix": "IT"
+  },
+  {
+    "name": "Греция",
+    "tax": 24,
+    "taxNumberPrefix": "GR"
+  }
+]
